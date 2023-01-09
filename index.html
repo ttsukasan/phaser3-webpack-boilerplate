@@ -1,19 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="author" content="digitsensitive" />
-    <title>Webpack-Boilerplate</title>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="assets/styles/css/style.css"
-      media="screen"
-    />
+<!doctype html>
+<html class="no-js" lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="assets/styles/css/style.css" media="screen"/>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
     <script src="dist/bundle.js"></script>
-  </head>
-  <body>
-    <h1>Webpack-Boilerplate</h1>
-    <div id="game"></div>
-  </body>
+
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<div id="game"></div>
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+    window.ga = function () {
+        ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
 </html>
